@@ -8,7 +8,7 @@ export default function TransferButton() {
     const router = useRouter();
     const handleTransferButton = (e) => {
         e.preventDefault();
-        router.push('/transfermoney');
+        router.push('/viewcustomer');
     }
     return(
         <div style={{display: "flex", flexDirection: "column"}}>

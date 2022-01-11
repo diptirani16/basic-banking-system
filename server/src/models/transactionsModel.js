@@ -1,11 +1,11 @@
 const mongoose = require('mongoose');
 
 const transactionSchema = new mongoose.Schema({
-    transactionID: { type: mongoose.ObjectId },
+    userID: { type: Number },
     sender: { type: String },
     reciepent: { type: String },
     amount: { type: Number },
-    date: { type: Date },
+    date: { type: String },
     status: { type: String }
 })
 

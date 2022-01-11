@@ -8,7 +8,7 @@ export default function TransactionButton() {
     const router = useRouter();
     const handleTransactionButton = (e) => {
         e.preventDefault();
-        router.push('/transactionhistory');
+        router.push('/history');
     }
     return(
         <div style={{display: "flex", flexDirection: "column"}}>

@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Home from '../components/Home'
 import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 export default function App() {
   return (
@@ -14,11 +15,11 @@ export default function App() {
 
       <main className={styles.main}>
         <Header />
-        <Home />
+        <Home />        
       </main>
 
       <footer className={styles.footer}>
-        <p>@ 2022, All rights reserved - Dipti Rani </p>
+        <Footer />
       </footer>
     </div>
   )
